@@ -14,12 +14,9 @@ function getCache(){
     return color?color:"white";
 }
 const handleColor=R.pipe(getValue,setColor,setCache);
-
+const handleColorCache=R.pipe(getCache,setColor);
 function init(){
-    var color = localStorage.getItem("bgColor");
-    if(color){
-        setColor(color);
-    }
+    handleColorCache();
 }
 // bgColor
 $("#bgColor").on("change",handleColor)
