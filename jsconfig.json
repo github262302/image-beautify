@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "lib": ["es6", "dom","ESNext"],
+        "allowJs": true,
+        "checkJs": true
+    },
+    "include": ["browser/**/*.js"]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "image-beautify",
+    "scripts": {
+        "start": "live-server browser"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.5.16"
+    }
+}
