@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[preview](https://github262302.github.io/image-beautify/browser/)
+[preview](https://github262302.github.io/image-beautify/)
  
 </div>
 
